@@ -1,22 +1,9 @@
-import {React, useState, useEffect} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import axios from 'axios'; 
 import './index.css';
+import 'tachyons';
 import reportWebVitals from './reportWebVitals';
 import Characters from "./Characters"
-
-// function Characters() {
-//     const [characters, setCharacters] = useState([]);
-  
-//   useEffect(() => {
-//     axios.get(`https://rickandmortyapi.com/api/character`)
-//       .then((res) => {
-//         console.log(res);
-//       });
-//   }, []);
-
-//   return null;
-// }
 
 ReactDOM.render(<Characters />,document.getElementById('root'));
 
