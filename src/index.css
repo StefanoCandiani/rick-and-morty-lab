@@ -44,6 +44,17 @@ body {
 }
 
 #root {
-  flex-wrap: wrap;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150vh;
+}
+
+.intro {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vh;
+  font-size: 50px;
+  font-weight: bold;
+
 }
